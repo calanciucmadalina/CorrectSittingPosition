@@ -1,0 +1,61 @@
+.Card {
+  width: 420px;
+  height: 700px;
+  position: relative;
+  border-radius: 18px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:7px;
+  background-color:white;
+  z-index: 100;
+}
+
+.Card img {
+  width: 300px;
+  height: 300px;
+  border-radius: 18px;
+}
+
+.Card h2 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.Card p {
+  color: #6a6a6a;
+  font-size: 20px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.Card p.Good {
+  color: #4caf50;
+}
+
+.Card p.Bad {
+  color: #ff5454;
+}
+
+#initiator {
+  background-color: #00D084; /* Green */
+  height: 40px;
+  width: 320px;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  padding-top:20px;
+  
+}
+
+.Card video {
+  border-radius: 20px;
+}
